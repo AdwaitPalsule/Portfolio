@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Adwait Palsule — software engineer building backend systems, AI tools and computer vision applications.">
+  <meta name="theme-color" content="#f3f1eb">
+  <title>Adwait Palsule — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Adwait Palsule home">adwait<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><span class="theme-icon">◐</span><span class="theme-label">Dark mode</span></button><a class="availability" href="mailto:palsuleadwait@gmail.com"><span></span> Get in touch</a></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="eyebrow"><span class="eyebrow-line"></span> SOFTWARE ENGINEER <span class="eyebrow-dot">·</span> PUNE, INDIA</div>
+        <h1>I build thoughtful<br><span>software systems.</span></h1>
+        <div class="hero-bottom">
+          <p class="hero-copy">An engineering graduate interested in backend development, applied AI and computer vision. I enjoy turning complex ideas into practical, reliable software.</p>
+          <div class="hero-links">
+            <a href="https://github.com/AdwaitPalsule" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://www.linkedin.com/in/palsuleadwait/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a href="https://leetcode.com/u/AdwaitPalsule/" target="_blank" rel="noreferrer">LeetCode <span>↗</span></a>
+            <a href="mailto:palsuleadwait@gmail.com">Email <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-rule"></div>
+        <div class="quick-facts">
+          <div><span class="fact-label">EDUCATION</span><span>B.E. Electronics & Computer Engineering</span></div>
+          <div><span class="fact-label">GRADUATED</span><span>2026</span></div>
+          <div><span class="fact-label">FOCUS</span><span>Backend · AI/ML · Computer Vision</span></div>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading">
+          <div><div class="section-kicker">01 / SELECTED WORK</div><h2>Projects & experience</h2></div>
+          <p>A selection of systems I've worked on, from computer vision research to backend infrastructure and AI-powered tools.</p>
+        </div>
+
+        <article class="project project-featured">
+          <div class="project-meta"><span>01 — FEATURED PROJECT</span><span>COMPUTER VISION / AI</span></div>
+          <div class="featured-grid">
+            <div class="featured-visual" aria-label="Abstract badminton court illustration">
+              <div class="court court-back"></div><div class="court court-front"></div>
+              <div class="court-net"></div>
+              <span class="track track-one"></span><span class="track track-two"></span>
+              <span class="player player-one"></span><span class="player player-two"></span>
+              <span class="shuttle"></span>
+              <span class="visual-label">PLAYER TRACKING / TRAJECTORY ANALYSIS</span>
+            </div>
+            <div class="project-content">
+              <h3>Vision-Based Badminton Performance Analysis</h3>
+              <p class="project-subtitle">Player tracking, shuttle trajectory estimation & LLM-assisted coaching insights.</p>
+              <p>Computer-vision research focused on extracting match-level information and turning player and event data into tactical insights. The work includes YOLOv11-based player detection, video-grouped evaluation and an agentic analysis module.</p>
+              <div class="tags"><span>Python</span><span>YOLOv11</span><span>OpenCV</span><span>LangChain</span><span>LLMs</span></div>
+              <div class="project-foot"><span>Research paper submitted for review</span><a href="mailto:palsuleadwait@gmail.com?subject=Badminton%20analysis%20project">Discuss project ↗</a></div>
+            </div>
+          </div>
+          <p class="project-note">Engineering major project developed with Topographix Ltd. Project materials are not publicly linked.</p>
+        </article>
+
+        <div class="project-list">
+          <article class="project-row">
+            <div class="row-number">02</div>
+            <div class="row-main">
+              <div class="project-meta"><span>BACKEND ENGINEERING</span><span>PERSONAL PROJECT</span></div>
+              <h3>URL Shortener</h3>
+              <p>REST APIs for URL creation, custom aliases, redirection and link management. Includes Base62 code generation, collision handling, Redis caching with a five-minute TTL, IP-based rate limiting and Docker Compose services.</p>
+              <div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span><span>SQLAlchemy</span><span>Docker</span><span>Alembic</span></div><a class="repo-link" href="https://github.com/AdwaitPalsule/URL_SHORTENER" target="_blank" rel="noreferrer">View source on GitHub <span>↗</span></a>
+            </div>
+            <div class="row-aside"><span>API DESIGN</span><span class="arrow">↗</span></div>
+          </article>
+
+          <article class="project-row">
+            <div class="row-number">03</div>
+            <div class="row-main">
+              <div class="project-meta"><span>AGENTIC AI</span><span>PERSONAL PROJECT</span></div>
+              <h3>Multi-Agent GitHub Repository Analyzer</h3>
+              <p>An agentic tool that inspects repositories through the GitHub REST API, retrieves metadata, commits, branches and source files, then uses tool-calling workflows to answer repository-specific questions with relevant code context.</p>
+              <div class="tags"><span>Python</span><span>LangGraph</span><span>LangChain</span><span>OpenAI API</span><span>GitHub REST API</span></div><a class="repo-link" href="https://github.com/AdwaitPalsule/GITHUB_TOOL" target="_blank" rel="noreferrer">View source on GitHub <span>↗</span></a>
+            </div>
+            <div class="row-aside"><span>DEVELOPER TOOLS</span><span class="arrow">↗</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience-section">
+        <div class="section-heading">
+          <div><div class="section-kicker">02 / EXPERIENCE</div><h2>Where I've worked</h2></div>
+          <p>Building practical automation workflows and AI-enabled applications.</p>
+        </div>
+        <article class="experience-card">
+          <div class="experience-top"><div><h3>AI Automation Intern</h3><div class="company">Topographix Ltd.</div></div><span class="date">INTERNSHIP</span></div>
+          <p>Built a conversational nutrition-tracking assistant integrating WhatsApp Business API, n8n, Claude vision/language models and Supabase.</p>
+          <ul>
+            <li>Designed intent routing for image analysis, question answering and food-history database queries.</li>
+            <li>Developed a two-stage vision workflow to extract dish names, portions and structured nutrition data.</li>
+            <li>Implemented a natural-language-to-SQL agent with user-scoped queries and tested end-to-end across 10 runs and 5 WhatsApp numbers.</li>
+          </ul>
+          <div class="tags"><span>n8n</span><span>WhatsApp Business API</span><span>Claude</span><span>Supabase</span></div>
+        </article>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <div><div class="section-kicker">03 / A LITTLE ABOUT ME</div><h2>Curious by default.</h2></div>
+          <p>I like understanding how things work under the hood — from APIs and databases to vision models and agentic workflows.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>I graduated in Electronics and Computer Engineering from PES Modern College of Engineering, Savitribai Phule Pune University, in 2026.</p>
+            <p>My work sits at the intersection of software engineering and applied AI. I'm particularly interested in building dependable backend services and using machine learning to solve concrete problems.</p>
+            <div class="education-line"><span class="fact-label">EDUCATION</span><strong>B.E. Electronics & Computer Engineering</strong><span>PES Modern College of Engineering · 2022–2026</span><span>GPA 8.76 / 10</span></div>
+          </div>
+          <div class="skills-block">
+            <div class="skill-group"><span class="fact-label">LANGUAGES</span><p>Python, C++, SQL, Embedded C</p></div>
+            <div class="skill-group"><span class="fact-label">BACKEND & DATABASES</span><p>FastAPI, Flask, SQLAlchemy, PostgreSQL, MySQL, Redis, Supabase</p></div>
+            <div class="skill-group"><span class="fact-label">AI / ML</span><p>Computer Vision, YOLOv11, OpenCV, PyTorch, TensorFlow, Scikit-learn, LangChain, LangGraph, RAG</p></div>
+            <div class="skill-group"><span class="fact-label">TOOLS</span><p>Docker, Git, GitHub, n8n, Streamlit, FAISS, Alembic</p></div>
+          </div>
+        </div>
+        <div class="award-strip"><span class="fact-label">RECOGNITION</span><strong>ProStart Hackathon 2024–25</strong><span>Hardware Category Winner · Among approximately 30 teams</span></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-kicker">04 / CONTACT</div>
+        <h2>Have something<br>interesting in mind?</h2>
+        <p>I'm always open to conversations about software, engineering and opportunities to build useful things.</p>
+        <a class="contact-email" href="mailto:palsuleadwait@gmail.com">palsuleadwait@gmail.com <span>↗</span></a>
+        <div class="contact-bottom">
+          <span>Pune, Maharashtra, India</span>
+          <div><a href="https://github.com/AdwaitPalsule" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/palsuleadwait/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://leetcode.com/u/AdwaitPalsule/" target="_blank" rel="noreferrer">LeetCode ↗</a></div>
+        </div>
+      </section>
+    </main>
+    <footer><a class="wordmark" href="#top">adwait<span>.</span></a><span>Designed & built with care · 2026</span><a href="#top">Back to top ↑</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
